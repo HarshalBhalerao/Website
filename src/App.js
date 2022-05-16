@@ -9,7 +9,7 @@ function App()
         // <Navbar /> We can use the same Navbar for different pages, just make sure to remove the -80px of margin
         <Router>
             <Routes>
-                <Route path = "/Personal_Website" element = {<Home />} exact />
+                <Route path = "/Website" element = {<Home />} exact />
             </Routes>
         </Router>
     );
