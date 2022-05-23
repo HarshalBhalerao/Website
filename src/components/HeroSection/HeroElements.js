@@ -65,7 +65,7 @@ export const HeroH1 = styled.h1`
     }
 `;
 
-export const HeroP = styled.p`
+export const HeroP = styled.div`
     color: #fff;
     font-size: 24px;
     text-align: center;

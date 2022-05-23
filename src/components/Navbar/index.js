@@ -29,7 +29,7 @@ const Navbar = ({toggle}) => {
             <IconContext.Provider value = {{color: '#fff'}}>
                 <Nav scrollNav = {scrollNav}>
                     <NavbarContainer>
-                        <NavLogo to = '/' onClick = {toggleHome}>
+                        <NavLogo to = '/Website' onClick = {toggleHome}>
                             Harshal Bhalerao
                         </NavLogo>
                         <MobileIcon onClick = {toggle}><FaBars /></MobileIcon>
@@ -42,9 +42,6 @@ const Navbar = ({toggle}) => {
                             </NavItem>
                             <NavItem>
                                 <NavLinks to = "work" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Work</NavLinks>
-                            </NavItem>
-                            <NavItem>
-                                <NavLinks to = "contact" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Contact Me</NavLinks>
                             </NavItem>
                         </NavMenu>
                     </NavbarContainer>

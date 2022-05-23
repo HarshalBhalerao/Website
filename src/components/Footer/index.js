@@ -12,7 +12,7 @@ const Footer = () => {
             <FooterWrap>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to = '/' onClick = {toggleHome}>
+                        <SocialLogo to = '/Website' onClick = {toggleHome}>
                             Harshal Bhalerao
                         </SocialLogo>
                         <WebsiteRights>Harshal Bhalerao {'\u00A9'} {new Date().getFullYear()} All rights reserved.</WebsiteRights>
