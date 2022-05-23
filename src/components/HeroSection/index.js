@@ -21,7 +21,7 @@ const HeroSection = () => {
                     repeat={1}
                 /></HeroH1>
                 <hr className = "info-divider" />
-                <HeroP>{' '}<TypeAnimation cursor={true} repeat={Infinity} sequence={["I'm a Software Developer", 1000, "I'm a Web Developer", 1000, "I'm a 4th year Student", 1000]} /></HeroP>
+                <HeroP>{' '}<TypeAnimation cursor={true} repeat={Infinity} sequence={["DevOps Engineer @ Nutrien", 1000, "Software Developer", 1000, "CS @ UManitoba", 1000]} /></HeroP>
                 <hr className = "info-divider" />
 
                 <SocialIcons>

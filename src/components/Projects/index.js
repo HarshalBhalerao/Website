@@ -1,12 +1,12 @@
 import React from 'react'
 import { ProjectsContainer, ProjectsH1, ProjectsWrapper, ProjectsCard, ProjectsIcon, ProjectsH2, ProjectsP } from './ProjectsElements'
-import Icon1 from '../../images/android.jpeg';
+import Icon1 from '../../images/android.png';
 import Icon2 from '../../images/react.png';
-import Icon3 from '../../images/university.png';
+import Icon3 from '../../images/soa.png';
 
 const Projects = () => {
     const urlBookStore = 'https://github.com/HarshalBhalerao/BookStore-App'
-    const urlPathFinding = 'https://harshalbhalerao.github.io/PathfindingVisualizer/'
+    const urlPathFinding = 'https://harshalbhalerao.github.io/PathVisualizerV2/'
     const urlWebsite = 'https://soaexhibitions.ca/'
 
     return (
@@ -16,7 +16,7 @@ const Projects = () => {
                 <a href = {urlBookStore} style = {{textDecoration: "none", color: "black"}}>
                     <ProjectsCard>
                         <ProjectsIcon src = {Icon1} />
-                        <ProjectsH2>Book Store App</ProjectsH2>
+                        <ProjectsH2>Bookstore App</ProjectsH2>
                         <ProjectsP>Developed an Android App with my group in COMP 3350.</ProjectsP>
                     </ProjectsCard>
                 </a>
