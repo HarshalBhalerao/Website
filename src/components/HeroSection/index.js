@@ -18,12 +18,11 @@ const HeroSection = () => {
                 <HeroH1>{' '}<TypeAnimation
                     cursor={true}
                     sequence={['Hello! ', 1000, "Hello! I'm Harshal.", 500]}
-                    wrapper="p"
                     repeat={1}
                 /></HeroH1>
-                <hr class="intro-divider" />
-                <HeroP>{' '}<TypeAnimation cursor={true} repeat={Infinity} wrapper="p" sequence={["I'm a Software Developer", 1000, "I'm a Web Developer", 1000, "I'm a 4th year Student", 1000]} /></HeroP>
-                <hr class="intro-divider" />
+                <hr className = "info-divider" />
+                <HeroP>{' '}<TypeAnimation cursor={true} repeat={Infinity} sequence={["I'm a Software Developer", 1000, "I'm a Web Developer", 1000, "I'm a 4th year Student", 1000]} /></HeroP>
+                <hr className = "info-divider" />
 
                 <SocialIcons>
                     <SocialIconLink href="https://github.com/HarshalBhalerao" target="_blank" aria-label="Github">

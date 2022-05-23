@@ -21,7 +21,7 @@ const InfoSection = ({lightBg, imgStart, id, lightText, headLine, darkText, desc
                                 <Heading lightText = {lightText}>
                                     {headLine}
                                 </Heading>
-                                <hr class = "info-divider" />
+                                <hr className = "info-divider" />
                                 <Subtitle darkText = {darkText}>{description}</Subtitle>
                                 <List visible = {liExist ? 1 : 0}>{langUsed}</List>
                                 <List visible = {liExist ? 1 : 0}>{animationUsed}</List>
