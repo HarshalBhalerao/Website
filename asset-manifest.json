@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Website/static/css/main.a25faee6.css",
+    "main.js": "/Website/static/js/main.cda3c723.js",
+    "static/media/heroImage.jpg": "/Website/static/media/heroImage.b5959a0217e028693f2c.jpg",
+    "static/media/university.png": "/Website/static/media/university.3c33a19f5e5ff038d9bb.png",
+    "static/media/me.jpg": "/Website/static/media/me.d58618f30beb82e2e1fe.jpg",
+    "static/media/android.png": "/Website/static/media/android.73a793b2c23dcbf9bb88.png",
+    "static/media/Connect4.jpg": "/Website/static/media/Connect4.a9de0ec8db3e179fad20.jpg",
+    "static/media/Nutrien_Logo.png": "/Website/static/media/Nutrien_Logo.6963925656a4b5051a05.png",
+    "static/media/soa.png": "/Website/static/media/soa.d2654e7c1ed570facb68.png",
+    "static/media/Pathfinding.png": "/Website/static/media/Pathfinding.0333ce4dccfe750e89d2.png",
+    "static/media/QLearning.png": "/Website/static/media/QLearning.391c8989e85086bd4de6.png",
+    "index.html": "/Website/index.html",
+    "main.a25faee6.css.map": "/Website/static/css/main.a25faee6.css.map",
+    "main.cda3c723.js.map": "/Website/static/js/main.cda3c723.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a25faee6.css",
+    "static/js/main.cda3c723.js"
+  ]
+}
